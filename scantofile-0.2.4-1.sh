@@ -27,8 +27,8 @@ tmptemplate="brscan-XXXXXX"
 output_file="$outputdir/brscan_`date +%F_%H-%M-%S`.pdf"
 
 #scan options
-resolution=1200 #see scanimage --help
-mode="Black" #see scanimage --help
+resolution=1200 #see scanimage --help (1200 is max on MFC-7360N)
+mode="24bit Color" #see scanimage --help
 
 #
 # Start Script
